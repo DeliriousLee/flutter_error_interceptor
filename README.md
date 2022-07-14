@@ -1,5 +1,6 @@
 # flutter_error_interceptor
 基于dio框架下的网络错误拦截
+```
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_error_interceptor/error_interceptor.dart';
@@ -46,3 +47,4 @@ void main() {
   ));
   dio.get(fullPath);
 }
+```
