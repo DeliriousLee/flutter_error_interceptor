@@ -1,6 +1,6 @@
 # flutter_error_interceptor
 基于dio框架下的网络错误拦截
-```
+```dart
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_error_interceptor/error_interceptor.dart';
@@ -42,7 +42,7 @@ class HttpConfig {
         },
 
         /// 对某个特殊错误码做处理
-        errorCodePlan: {
+        errorCodePlan: { 
           /// 例: 401错误,未登录
           401: (error) {
             /// 本地接口过期
